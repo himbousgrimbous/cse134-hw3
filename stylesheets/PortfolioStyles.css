@@ -6,7 +6,7 @@
         margin-left: var(--pad);
         margin-right: var(--pad);
         
-        overflow: scroll;
+        overflow: auto;
 
     }
 }
