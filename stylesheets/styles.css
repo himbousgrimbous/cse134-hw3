@@ -28,9 +28,11 @@ body {
     'header'
     'main'
     'footer';
-    grid-template-rows: auto 2fr auto;  /*always places footer at the bottom*/
+
+    grid-template-rows: auto 1fr auto;  /*always places footer at the bottom*/
 
     background-color: var(--fillcolor);
+    
     
 }
 
@@ -47,7 +49,10 @@ body {
 main{
     padding: 20px;
     margin: 10px;
+
+    grid-area: 'main';
     flex-grow: 1;
+
     animation: fade ease-in 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
@@ -72,7 +77,16 @@ nav{
 header, footer{
     background-color: var(--hfColor);
     font-size:1.6rem;
-    
+}
+
+header{
+    grid-area: 'header';
+}
+
+footer{
+    grid-area: 'footer';
+    position: sticky;
+    top: 100vh;
 }
 
 h1,h2,h3,h4 {
