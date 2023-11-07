@@ -1,0 +1,18 @@
+
+@media screen and (min-aspect-ratio: 1.25/1) and (max-aspect-ratio: 2.5/1){
+    .projectN {
+        display:flex;
+        
+        margin-left: var(--pad);
+        margin-right: var(--pad);
+
+    }
+}
+
+#pic{
+    flex: 1;
+}
+
+#content{
+    flex: 1;
+}
