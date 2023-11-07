@@ -32,10 +32,10 @@
 body {
     height: 100dvh;
     display: grid;
-    grid-template-areas:
+    /*grid-template-areas:
     'header'
     'main'
-    'footer';
+    'footer';*/
 
     grid-template-rows: auto 1fr auto;  /*always places footer at the bottom*/
 
@@ -58,7 +58,7 @@ main{
     padding: 20px;
     margin: 10px;
 
-    grid-area: 'main';
+    /*grid-area: 'main';*/
     flex-grow: 1;
 
     animation: fade ease-in 1s;
@@ -87,12 +87,12 @@ header, footer{
     font-size:1.6rem;
 }
 
-header{
+/*header{
     grid-area: 'header';
-}
+}*/
 
 footer{
-    grid-area: 'footer';
+    /*grid-area: 'footer';*/
     position: sticky;
     top: 100vh;
 }
