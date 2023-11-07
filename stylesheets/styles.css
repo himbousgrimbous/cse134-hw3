@@ -85,6 +85,7 @@ i {
 
 .navLink{
     flex-grow: 1;
+
     color: var(--hfFontColor);
     text-decoration: none;
     font-weight: bold;
@@ -155,9 +156,12 @@ i {
 #footerLeft{
     text-align: right;
     padding-right: calc(var(--pad)/2);
+       
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 #footerRight{
     text-align: left;
     padding-left: calc(var(--pad)/2);
 }
-
